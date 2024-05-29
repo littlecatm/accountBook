@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>记账本</title>
+    <link rel="stylesheet" href="/accountBook.css">
+</head>
+<body>
+    <h1 class="title">记账本</h1>
+    <a href="/account/create" style="text-decoration: none; color: green;">跳转到记账页面</a>
+    <br>
+    <div class="account-book">
+        <% accounts.forEach((item)=>{ %>
+        <div class="disburse">
+            <div class="disburse-time <%= item.category==='-1'?'':'income-time' %>"><%= item.time %></div>
+            <div class="account-content">
+                <div class="account-record">
+                    <%= item.note %>
+                </div>
+                <div class="account-tag <%= item.category==='-1'?'':'income-tag' %>"><%= item.category==='-1'?"支出":"收入" %></div>
+                <div class="money"><%= item.money %>元</div>
+                <div class="delete"><a href="/account/<%= item.id %>">×</a></div>
+            </div>
+        </div>
+        <% }) %>
+    </div>
+  
+</body>
+</html>

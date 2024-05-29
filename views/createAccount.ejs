@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>记账操作后台</title>
+    <link rel="stylesheet" href="/accountOperation.css">
+</head>
+<body>
+    <h1 class="title">记账操作</h1>
+    <br>
+    <form class="account-operation" method="post" action="/account">
+        <div class="time">
+          <label class="text"> 时间： </label><input type="datetime-local" name="time" class="input-style" id="time">
+        </div>
+        <div class="category">
+           <label class="text"> 记账类别：</label><select name="category" id="category" class="category-style">
+                <option value="-1">支出</option>
+                <option value="1">收入</option>
+            </select>
+        </div>
+        <div class="money">
+        <label class="text">   金额：</label> <input name="money" type="number" class="input-style" id="money">
+        </div>
+        <div class="note">
+          <label class="text"> 备注：</label> <textarea name="note" id="note"  class="note-style"></textarea>
+        </div>
+        <div class="submit">
+            <button>添加</button>
+        </div>
+    </form >
+</body>
+</html>

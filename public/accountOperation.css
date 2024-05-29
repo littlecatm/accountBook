@@ -1,0 +1,35 @@
+.account-operation{
+    padding: 20px;
+    background-color: #b9b8b8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.time,.category,.money,.note{
+    width: 90%;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.input-style{
+    width: 80%;
+    height: 28px;
+}
+.text{
+    width: 20%;
+    text-align: start;
+}
+.category-style{
+    width: 80%;
+    height: 34px;
+}
+.note-style{
+    width:80%;
+    height: 60px;
+}
+.title{
+    text-align: center;
+}

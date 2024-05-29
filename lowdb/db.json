@@ -1,0 +1,39 @@
+{
+  "accounts": [
+    {
+      "id": "fIySaAjPC",
+      "time": "2024-05-29T09:22",
+      "category": "-1",
+      "money": "22",
+      "note": "掉了22块，心痛啊"
+    },
+    {
+      "id": "rw68LUzWl",
+      "time": "2024-05-29T01:39",
+      "category": "-1",
+      "money": "158",
+      "note": "吃饭，请朋友吃饭。"
+    },
+    {
+      "id": "_wvLwPNyI",
+      "time": "2024-05-08T03:17",
+      "category": "1",
+      "money": "10",
+      "note": "地上捡到的，嘻嘻~"
+    },
+    {
+      "id": "wnEbL1zJ2",
+      "time": "2024-05-29T03:14",
+      "category": "-1",
+      "money": "1000",
+      "note": "买了一学期的逻辑训练课，锻炼一下自己的逻辑~"
+    },
+    {
+      "id": "KKiTjy98J",
+      "time": "2024-06-08T15:02",
+      "category": "1",
+      "money": "1000",
+      "note": "炒股赚到了！！！"
+    }
+  ]
+}

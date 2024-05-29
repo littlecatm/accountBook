@@ -1,0 +1,79 @@
+.account-book{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+
+}
+.disburse,.income{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #fefefe;
+    box-shadow: 0 0 4px skyblue;
+    margin-top: 20px;
+}
+.disburse-time{
+    font-size: 14px;
+    color: rgb(173, 93, 93);
+    background-color: #b89090;
+    height: 30px;
+    line-height: 30px;
+   border-radius: 10px 10px 0 0;
+   padding: 10px;
+}
+.account-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.account-record{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+.account-tag{
+    border-radius:6px ;
+    width: 40px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.781);
+    color: #fefefe;
+}
+.income-time{
+    background-color: #7ee28b;
+    color: #18461e;
+}
+.income-tag{
+    background-color: rgba(0, 255, 34, 0.781);
+}
+.title{
+    text-align: center;
+}
+.money{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    width: 60px;
+}
+.delete{
+    border-radius: 50px;
+    margin-right: 10px;
+    background-color: #7e7d7d;
+    a{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+    border-radius: 50px;
+        text-decoration: none;
+        line-height: 20px;
+        width: 20px;
+        height: 20px;
+        color: rgba(0, 0, 0, 0.479);
+        text-align: center;
+        font-weight: bold;
+    }
+}
